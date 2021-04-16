@@ -127,4 +127,53 @@ a {
   color: #ffce76;
 }
 
+/*Advantages*/
 
+.advantages {
+  padding: 100px 0 150px 0;
+  background-color: #181817;
+}
+
+.advantage-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage-li {
+  display: flex;
+  width: 400px;
+  margin-bottom: 65px;
+}
+
+.advantage-li-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffce76;
+  letter-spacing: 5px;
+  margin-bottom: 24px;
+}
+
+.advantage-li-text {
+  color: #fefefe;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.main-title {
+  margin-bottom: 110px;
+}
+
+.main-title img {
+  display: block;
+  margin: 0 auto;
+}
+
+.title-section-text {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffce76;
+  letter-spacing: 5px;
+  text-align: center;
+}
