@@ -139,6 +139,22 @@ a {
   justify-content: space-between;
 }
 
+/*Advantages -> Icons*/
+
+.toolsImg {
+  margin: 8px 20px 0 20px;
+}
+
+.starImg {
+  margin: 8px 3px 0 9px;
+}
+
+.noteImg, .phoneImg {
+  margin: 8px 30px 0 13px;
+}
+
+/*Advantages <- Icons*/
+
 .advantage-li {
   display: flex;
   width: 400px;
@@ -152,6 +168,14 @@ a {
   color: #ffce76;
   letter-spacing: 5px;
   margin-bottom: 24px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 .advantage-li-text {
