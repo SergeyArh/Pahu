@@ -201,3 +201,104 @@ a {
   letter-spacing: 5px;
   text-align: center;
 }
+
+/*Trends*/
+
+.trends-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trends-detail {
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.trends-item:first-child {
+  width: 50%;
+  min-height: 340px;
+  background: url(../img/plane.png) no-repeat center;
+  background-size: cover;
+}
+
+.trends-item:nth-child(2) {
+  width: 50%;
+  min-height: 340px;
+  background: url(../img/blue\ sofa.png) no-repeat center;
+  background-size: cover;
+}
+
+.trends-item:nth-child(3) {
+  width: 25%;
+  min-height: 330px;
+  background: url(../img/armchair.png) no-repeat center;
+  background-size: cover;
+}
+
+.trends-item:nth-child(4) {
+  width: 53%;
+  min-height: 330px;
+  background: url(../img/boxes.png) no-repeat center;
+  background-size: cover;
+}
+
+.trends-item.last {
+  width: 22%;
+  min-height: 330px;
+  background: url(../img/apple.png) no-repeat center;
+  background-size: cover;
+}
+
+.trends-text-item {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 35px;
+  margin-bottom: 35px;
+}
+
+.trend-text-title.first {
+  padding: 75px 0 0 95px;
+  width: 250px;
+}
+
+.trend-text-title.second {
+  padding: 50px 0 0 50px;
+  width: 310px;
+}
+
+.trend-text-title.third {
+  padding: 40px 0 0 50px;
+  width: 250px;
+}
+
+.color-black {
+  color: #352b30;
+}
+
+.color-blue {
+  color: #599ba7;
+}
+
+.color-green {
+  color: #749d26;
+}
+
+.view-arrow {
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/*Collection*/
+
+.collection {
+  padding: 100px 0;
+}
+
+.collection .title-section-text {
+  color: #181817;
+}
