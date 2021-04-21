@@ -307,7 +307,6 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .collection-inner {
@@ -326,10 +325,13 @@ a {
 }
 
 .collection-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 270px;
   height: 400px;
   padding: 40px 40px 0 25px;
- 
+  
   position: relative;
   margin-bottom: 30px;
 }
@@ -369,7 +371,7 @@ a {
 }
 
 .collection-text {
-  padding: 15px 0 25px 0;
+  margin-bottom: 30px;
 }
 
 .collection-title {
@@ -377,6 +379,8 @@ a {
   font-size: 20px;
   font-weight: 600;
   color: #000;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .collection-item.new .new-thing {
@@ -388,4 +392,40 @@ a {
 .price {
   font-size: 27px;
   color: #000;
+  margin-bottom: 15px;
+}
+
+/*Designer*/
+
+.designer {
+  padding: 100px 0 200px 0;
+  background: url(../img/bgDesign.png) no-repeat center;
+  background-size: cover;
+}
+
+.designer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.designer-item {
+  margin-top: 20px;
+}
+
+.designer-name {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fafafa;
+  margin-top: 20px;
+  position: relative;
+}
+
+.designer-name:after {
+  content: "";
+  width: 170px;
+  height: 3px;
+  background-color: #ffce76;
+  position: absolute;
+  right: 0;
+  top: 23px;
 }
