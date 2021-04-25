@@ -462,7 +462,7 @@ a {
   width: 25%;
 }
 
-.project-item:nth-child(1) {
+.project-item.first {
   background: url('../img/slide1.png') no-repeat center;
   background-size: cover;
 }
