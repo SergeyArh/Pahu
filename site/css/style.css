@@ -463,7 +463,7 @@ a {
 }
 
 .project-item.first {
-  background: url('../img/plane.png') no-repeat center;
+  background: url('../img/slide1.png') no-repeat center;
   background-size: cover;
 }
 
@@ -543,4 +543,110 @@ a {
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
+}
+
+/*Footer*/
+
+.footer {
+  padding: 60px 0 80px 0;
+  background-color: #181817;
+}
+
+.footer-contacts {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.contacts-item {
+  border-left: solid 4px #ffcf768c;
+  padding: 10px 0 5px 20px;
+  width: 33.3%;
+}
+
+.contacts-title {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fece76;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.contacts-text {
+  color: #fafafa;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.nav-social {
+  margin-top: 30px;
+}
+
+.social-inner {
+  padding-top: 2px;
+  display: inline-block;
+  color: #fafafa;
+  font-size: 25px;
+  text-align: center;
+  border: solid 0.5px #fafafa44;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 32px;
+}
+
+.nav-item {
+  width: 33.3%;
+}
+
+.social-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fafafa;
+  position: relative;
+  top: -11px;
+}
+
+/*Form input+button*/
+
+#adress {
+  margin-bottom: 20px;
+}
+
+#key {
+  width: 80%;
+  height: 50px;
+  background-color: #181817;
+  border: solid 0.5px #fafafa44;
+  padding-left: 20px;
+  border-right: none;
+  outline: none;
+  color: #fafafa44;
+}
+
+#key:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+.button-inner {
+  height: 50px;
+  width: 17%;
+  background-color: #181817;
+  border: solid 0.5px #fafafa44;
+  border-left: none;
+  position: relative;
+  left: -4px;
+}
+
+.button-inner:hover {
+  cursor: pointer;
+}
+
+.button-inner i {
+  color: #fafafa44;
+  font-size: 14px;
 }
