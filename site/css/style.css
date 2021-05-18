@@ -800,4 +800,103 @@ a {
     text-align: left;
   }
 
+  /*Footer*/
+
+
+  .contacts-item {
+    width: 50%;
+    margin-left: 65px;
+  }
+
+  .footer-contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .social-inner:last-child {
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 575px) {
+
+  /*Advantages*/
+
+  .advantage-box {
+    flex-direction: column;
+  }
+
+  /*Trends*/
+
+  .trends-box {
+    flex-direction: column;
+  }
+
+  /*Collection*/
+
+  .main-title img {
+    width: 100%;
+  }
+
+  /*Project*/
+
+  
+
+  /*Blog*/
+
+  .blog {
+    padding: 20px 0;
+  }
+
+  .blog-box {
+    flex-direction: column;
+  }
+
+  .blog-item {
+    width: 100%;
+  }
+
+  .blog-inner {
+    padding: 10px 0px 20px 0px;
+  }
+
+  .blog-text {
+    margin: 5px 0 10px 0;
+  }
+
+  .main-title {
+    margin-bottom: 20px;
+  }
+
+  /*Footer*/
+
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer-contacts {
+    align-self: start;
+  }
+
+  .contacts-item {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav-item {
+    text-align: start;
+  }
+
 }
